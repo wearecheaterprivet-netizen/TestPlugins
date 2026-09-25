@@ -65,7 +65,6 @@ class MovieLinkBDProvider : MainAPI() {
                     }
                 )
             }
-            
 
             newTvSeriesLoadResponse(title, url, TvType.TvSeries, episodes) {
                 this.posterUrl = poster
